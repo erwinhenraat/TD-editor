@@ -2,7 +2,7 @@
 //var jsondata = require("data.json");
 //var data = JSON.parse(jsondata);
 
-console.log(data);
+//console.log(data);
 var canvas = document.getElementById("TD-editor");
 var ctx = canvas.getContext("2d");
 
@@ -60,12 +60,13 @@ ctx.canvas.addEventListener("click", (e)=>{
 
 
 //draw grid on start
+
 if(loadTileIcons(5)){
     setTimeout(()=>{        
         drawGrid(tileCount, dimensionX, cellWidth, cellHeight)},500);           
 }
 function drawGrid(length, cols, cellW, cellH){
-    console.log(2);
+  
     for(var i = 0; i < length;i++){
         var x = cellW*(i%cols);
         var y = Math.floor(i/cols)*cellH;

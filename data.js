@@ -1,8 +1,8 @@
 var data = {
-        "dimensionX" : 10,
-        "dimensionY" : 10,
-        "cellWidth" : 10,
-        "cellHeight" : 10,
+        "dimensionX" : 20,
+        "dimensionY" : 20,
+        "cellWidth" : 20,
+        "cellHeight" : 20,
         "tiles": [
           {
             "state": "free"
